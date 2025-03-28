@@ -29,15 +29,15 @@ python -m spacy download en_core_web_sm
 
 4) Set up Spotify API Credentials
 
-a) Go to Spotify Developer Dashboard
+   a) Go to Spotify Developer Dashboard
 
-b) Create a new application
+   b) Create a new application
 
-c) Copy Client ID and Client Secret
+   c) Copy Client ID and Client Secret
 
-d) Rename .env.example to .env
+   d) Rename .env.example to .env
 
-e) Fill in your Spotify credentials
+   e) Fill in your Spotify credentials
 
 ### Frontend Setup
 
