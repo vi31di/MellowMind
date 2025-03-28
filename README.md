@@ -19,15 +19,17 @@ It's like an AI powered smart music cum mental-wellbeing app.
 ### Backend Setup
 1) Clone the repository
    
-2) Create a virtual environment
-bashCopypython -m venv venv
+2) Create a virtual environment: 
+bash
+python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-3) Install dependencies
-bashCopypip install -r requirements.txt
+3) Install dependencies: 
+bash
+pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-4) Set up Spotify API Credentials
+4) Set up Spotify API Credentials: 
 
    a) Go to Spotify Developer Dashboard
 
@@ -41,20 +43,20 @@ python -m spacy download en_core_web_sm
 
 ### Frontend Setup
 
-1) Navigate to frontend directory
+1) Navigate to frontend directory: 
 bash
-Copycd frontend
+cd frontend
 npm install
 npm start
 
 ### Running The App
-1) Start backend
+1) Start backend: 
 bash
-Copypython mellow_mind.py
+python mellow_mind.py
 
-3) Start frontend
+3) Start frontend: 
 bash
-Copynpm start
+npm start
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first.
